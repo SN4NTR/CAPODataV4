@@ -1,0 +1,4 @@
+applications:
+  - name: cap-app
+    memory: 1024M
+    path: srv/target/myapp-1.0-SNAPSHOT.jar
