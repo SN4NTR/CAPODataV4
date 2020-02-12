@@ -11,8 +11,8 @@ import java.util.Date;
 @Component
 public class ScheduledTask {
 
-    private static final SimpleDateFormat simpleDateFormat = new SimpleDateFormat("HH:mm:ss");
     private static final int RATE_IN_MILLIS = 30000;
+    private static final SimpleDateFormat simpleDateFormat = new SimpleDateFormat("HH:mm:ss");
 
     @Scheduled(fixedRate = RATE_IN_MILLIS)
     public void reportCurrentTime() {
