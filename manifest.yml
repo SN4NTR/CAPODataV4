@@ -1,4 +1,10 @@
 applications:
-  - name: cap-app
+  - name: ((app-name))
     memory: 1024M
     path: srv/target/myapp-1.0-SNAPSHOT.jar
+
+    services:
+      - ((hana-instance-name))
+
+    env:
+      db_service_instance_name: ((hana-instance-name))
