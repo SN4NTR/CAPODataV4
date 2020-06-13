@@ -1,9 +1,9 @@
 spring:
   profiles: local
   datasource:
-    url: jdbc:sap://zeus.hana.prod.eu-central-1.whitney.dbaas.ondemand.com:23803?encrypt=true&validateCertificate=true&currentschema=D8F6EB676F5643BB981FDB9085592160
-    username: D8F6EB676F5643BB981FDB9085592160_25VMXZZM7MQP27XQLUI9I1UE3_RT
-    password: Vw7f4y6VVNz7Io_8epH9hYAX6R2XowiwKwQ.JXhM4VeDwF9KBaDafyBAU9JioTjiXYA5rKg.K8qgB3XIrPLS2kLDnHhru7fOBGfJVKb63s8gIqzsChZWJw1vu65Jy9jx
+    url:
+    username:
+    password:
     driver-class-name: com.sap.db.jdbc.Driver
     type: com.zaxxer.hikari.HikariDataSource
     hikari:
